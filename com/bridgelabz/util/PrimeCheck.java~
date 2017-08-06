@@ -1,0 +1,35 @@
+/**************************************
+*Compilation: 
+*Execution:   
+*
+*Purpose:     To display HELLO WORLD.
+*
+*@author:     ibrahim
+*
+***************************************/
+package com.bridgelabz.util;
+
+class PrimeCheck{
+
+       public static void main(String args[]){
+       int InputNumber=100000;
+       int Number;
+       int Counter=0;
+
+  
+       for(Number=2;Number<InputNumber;Number++){
+        if(InputNumber%Number==0){
+         
+         break;
+         }
+         
+
+         if(Number==InputNumber){
+          Counter=Counter+1;
+         }
+         }
+
+        System.out.println("The count is : "+Counter);
+         }
+         }
+
