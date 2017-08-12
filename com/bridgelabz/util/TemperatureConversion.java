@@ -1,4 +1,4 @@
-/******************************************************************************
+ /******************************************************************************
  *  Compilation:  javac -d bin com/bridgelabz/util/TemperatureConversion.java
  *  Execution:    java -cp bin com.bridgelabz.util.TemperatureConversion 
  *  
@@ -12,8 +12,8 @@
 //Package naming style
 package com.bridgelabz.util;
 
-import java.util.scanner;
-import java.lang.Integer;
+import java.util.Scanner;
+import java.lang.Integer; 
 
 public class TemperatureConversion{
 public static void main(String args[]){
