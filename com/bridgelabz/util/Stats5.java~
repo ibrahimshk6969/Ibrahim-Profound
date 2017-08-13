@@ -17,7 +17,7 @@ public class Stats5
 {
 		public static void main(String args [])
 		{
-				int array[] = new int [n];
+				int array[];
 				int n=5;
 				int ctr2;
 				for(int ctr1=0;ctr1<5;ctr1++)
